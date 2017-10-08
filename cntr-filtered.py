@@ -5,6 +5,7 @@
 import sys
 ## 
 
+## Function to filter output lines
 def filterout(pos,all_direct,all_reverse,all_starts,all_through):
     return (all_starts > 5 and all_starts > 0.1*all_through)
         
